@@ -1,7 +1,9 @@
+import { useState } from "react";
 import "./App.css";
 const envs = import.meta.env;
 
 function App() {
+  const [count, setCount] = useState();
   return (
     <div>
       <h1>Vite app + Docker</h1>
